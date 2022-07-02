@@ -3,7 +3,7 @@ local crafting = false
 
 
 CreateThread(function()
-    exports['qb-target']:AddTargetModel('prop_tool_bench02', { 
+    exports['qb-target']:AddTargetModel('prop_tool_bench02_ld', { 
         options = {
             {
                 type = 'server',
@@ -30,8 +30,7 @@ RegisterNetEvent('qb-personalcrafting:createBeanch', function()
     local ped = PlayerPedId()
     local pos = GetEntityCoords(ped)
     local offSet = GetOffsetFromEntityInWorldCoords(ped, 0.0, 1.5, 0.0)
-    local pHeading = GetEntityHeading(ped)
-    local bench = 'prop_tool_bench02'
+    local bench = 'prop_tool_bench02_ld'
     RequestModel(bench)
     if IsPedInAnyVehicle(ped) then return end
     TriggerEvent('animations:client:EmoteCommandStart', {"pickup"})
