@@ -1,6 +1,9 @@
 # qb-personalcrafting
  personal crafting used with QBCore framework
 
+# preview
+https://streamable.com/javedk
+
 ### How to give players access to the bench
 ```lua
 Config.Cid = { -- CitizenID = CID for short
