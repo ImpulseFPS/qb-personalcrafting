@@ -31,7 +31,7 @@ Config.Crafting = {
                 ['NEW ITEM'] = {
                     amount = 20,
                 },
-                                ['NEW ITEM'] = {
+                ['NEW ITEM'] = {
                     amount = 40,
                 },
                 -- And so on
